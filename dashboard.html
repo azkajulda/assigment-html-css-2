@@ -1,0 +1,967 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="dashboard.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card" id="kinerja-produksi">
+            <div class="card-header">
+              <h3>Kinerja Produksi</h3>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card" id="daily">
+                    <div class="card-header">
+                      <h3>Daily</h3>
+                    </div>
+                    <div class="text-center">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="card-body pe-0">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Unit 1</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>1200</h4>                              
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body ps-0">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Unit 2</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>1230</h4>                              
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card-body">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Unit 3</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>1024</h4>                            
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center">
+                      <h4>MWh</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" id="mothly">
+                    <div class="card-header">
+                      <h3>Monthly</h3>
+                    </div>
+                    <div class="text-center">
+                      <div class="card-body">
+                        <div class="card" id="total-unit">
+                          <div class="card-header">
+                            <h3>Total Unit</h3>
+                          </div>
+                          <div class="card-body">
+                            <h4>103634 MWh</h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="card" id="total-unit">
+                          <div class="card-header">
+                            <h3>Pencapaian</h3>
+                          </div>
+                          <div class="card-body">
+                            <h4>70%</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center"><h4>-</h4></div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" id="yearly">
+                    <div class="card-header">
+                      <h3>Yearly</h3>
+                    </div>
+                    <div class="text-center">
+                      <div class="card-body">
+                        <div class="card" id="total-unit">
+                          <div class="card-header">
+                            <h3>Total Unit</h3>
+                          </div>
+                          <div class="card-body">
+                            <h4>113974 MWh</h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="card" id="total-unit">
+                          <div class="card-header">
+                            <h3>Pencapaian</h3>
+                          </div>
+                          <div class="card-body">
+                            <h4>73%</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center"><h4>-</h4></div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div class="card" id="kinerja-operasi">
+            <div class="card-header">
+              <h3>Kinerja Operasi</h3>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card" id="daily">
+                    <div class="card-header">
+                      <h3>Daily</h3>
+                    </div>
+                    <div class="text-center">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="card-body pe-0">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Unit 1</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>1</h4>                              
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body ps-0">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Unit 2</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>2</h4>                              
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card-body">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Total</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>3</h4>                            
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center">
+                      <h4>Persen (%)</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" id="mothly">
+                    <div class="card-header">
+                      <h3>Monthly</h3>
+                    </div>
+                    <div class="text-center">
+                      <div class="card-body">
+                        <div class="card" id="total-unit">
+                          <div class="card-header">
+                            <h3>Total Unit</h3>
+                          </div>
+                          <div class="card-body">
+                            <h4>75</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center">
+                      <h4>Persen (%)</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" id="yearly">
+                    <div class="card-header">
+                      <h3>Yearly</h3>
+                    </div>
+                    <div class="text-center">
+                      <div class="card-body">
+                        <div class="card" id="total-unit">
+                          <div class="card-header">
+                            <h3>Total Unit</h3>
+                          </div>
+                          <div class="card-body">
+                            <h4>77</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center">
+                      <h4>Persen (%)</h4>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div class="card" id="kondisi-hidrologi">
+            <div class="card-header">
+              <h3>Kondisi Hidrologi (Discharge)</h3>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                
+                <div class="col-md-4">
+                  <div class="card" id="daily">
+                    <div class="card-header">
+                      <h3>Daily</h3>
+                    </div>
+                    <div class="text-center">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="card-body pe-0">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Rata" Unit 1</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>55,00</h4>                              
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body ps-0">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Rata" Unit 2</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>45,46</h4>                              
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card-body">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Total Rata"</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>58,76</h4>                            
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center">
+                      <h4>m3/s</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card" id="daily">
+                    <div class="card-header">
+                      <h3>Weekly</h3>
+                    </div>
+                    <div class="text-center">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="card-body pe-0">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Rata" Unit 1</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>56,00</h4>                              
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body ps-0">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Rata" Unit 2</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>51,32</h4>                              
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card-body">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Total Rata"</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>60,85</h4>                            
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center">
+                      <h4>m3/s</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card" id="daily">
+                    <div class="card-header">
+                      <h3>Yearly</h3>
+                    </div>
+                    <div class="text-center">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="card-body pe-0">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Rata" Unit 1</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>55,5</h4>                              
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body ps-0">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Rata" Unit 2</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>48,39</h4>                              
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card-body">
+                            <div class="card" id="daily">
+                              <div class="card-header">
+                                <h3>Total Rata"</h3>
+                              </div>
+                              <div class="card-body">
+                                <h4>59,805</h4>                            
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center">
+                      <h4>m3/s</h4>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div class="card" id="kondisi-hidrologi-level">
+            <div class="card-header">
+              <h3>Kondisi Hidrologi (Water Level)</h3>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card" id="mothly">
+                    <div class="card-header">
+                      <h3>Daily</h3>
+                    </div>
+                    <div class="text-center">
+                      <div class="card-body">
+                        <div class="card" id="total-unit">
+                          <div class="card-header">
+                            <h3>Level</h3>
+                          </div>
+                          <div class="card-body">
+                            <h4>903,50</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center">
+                      <h4>m</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card" id="mothly">
+                    <div class="card-header">
+                      <h3>Monthly</h3>
+                    </div>
+                    <div class="text-center">
+                      <div class="card-body">
+                        <div class="card" id="total-unit">
+                          <div class="card-header">
+                            <h3>Level</h3>
+                          </div>
+                          <div class="card-body">
+                            <h4>905,43</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center">
+                      <h4>m</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card" id="yearly">
+                    <div class="card-header">
+                      <h3>Yearly</h3>
+                    </div>
+                    <div class="text-center">
+                      <div class="card-body">
+                        <div class="card" id="total-unit">
+                          <div class="card-header">
+                            <h3>Level</h3>
+                          </div>
+                          <div class="card-body">
+                            <h4>903,9</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center">
+                      <h4>m</h4>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div class="card" id="kondisi-hidrologi-level">
+            <div class="card-header">
+              <h3>Pemeliharaan Sungai</h3>
+            </div>
+            <div class="card-body">
+              <div class="card" id="kondisi-hidrologi-level">
+                <div class="card-header">
+                  <h3>Trashboom 1</h3>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card mt-3" id="total-unit">
+                        <div class="card-header">
+                          <h3>Plastik</h3>
+                        </div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Volume (m3)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>2</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Pencapaian (%)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>76</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card mt-3" id="total-unit">
+                        <div class="card-header">
+                          <h3>Eceng Gondok</h3>
+                        </div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Volume (m3)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>2</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Pencapaian (%)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>34</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card mt-3" id="total-unit">
+                        <div class="card-header">
+                          <h3>Lain-lain</h3>
+                        </div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Volume (m3)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>3</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Pencapaian (%)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>56</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="card mt-5" id="kondisi-hidrologi-level">
+                <div class="card-header">
+                  <h3>Trashboom 2</h3>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card mt-3" id="total-unit">
+                        <div class="card-header">
+                          <h3>Plastik</h3>
+                        </div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Volume (m3)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>16</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Pencapaian (%)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>90</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card mt-3" id="total-unit">
+                        <div class="card-header">
+                          <h3>Eceng Gondok</h3>
+                        </div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Volume (m3)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>10</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Pencapaian (%)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>50</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card mt-3" id="total-unit">
+                        <div class="card-header">
+                          <h3>Lain-lain</h3>
+                        </div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Volume (m3)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>1</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Pencapaian (%)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>3</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="card mt-5" id="kondisi-hidrologi-level">
+                <div class="card-header">
+                  <h3>Intake Rack</h3>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card mt-3" id="total-unit">
+                        <div class="card-header">
+                          <h3>Plastik</h3>
+                        </div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Volume (m3)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>1</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Pencapaian (%)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>45</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card mt-3" id="total-unit">
+                        <div class="card-header">
+                          <h3>Eceng Gondok</h3>
+                        </div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Volume (m3)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>1</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Pencapaian (%)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>45</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card mt-3" id="total-unit">
+                        <div class="card-header">
+                          <h3>Lain-lain</h3>
+                        </div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Volume (m3)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>2</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Pencapaian (%)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>75</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="card mt-5" id="kondisi-hidrologi-level">
+                <div class="card-header">
+                  <h3>Spiral Case</h3>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card mt-3" id="total-unit">
+                        <div class="card-header">
+                          <h3>Plastik</h3>
+                        </div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Volume (m3)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>0</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Pencapaian (%)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>0</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card mt-3" id="total-unit">
+                        <div class="card-header">
+                          <h3>Eceng Gondok</h3>
+                        </div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Volume (m3)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>5</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Pencapaian (%)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>84</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card mt-3" id="total-unit">
+                        <div class="card-header">
+                          <h3>Lain-lain</h3>
+                        </div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Volume (m3)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>0</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card" id="mothly">
+                                <div class="card-header">
+                                  <h5>Pencapaian (%)</h5>
+                                </div>
+                                <div class="text-center">
+                                  <div class="card-body">
+                                    <h5>0</h5>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
